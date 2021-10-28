@@ -4,7 +4,7 @@ import json
 import copy
 
 
-models_path = "/ssd_scratch/cvit/george/models/" # the path where you stored the BLINK models
+models_path = "./models/"
 
 config = {
         "test_entities": None,
@@ -39,7 +39,7 @@ template = {
     "label_id": -1,
     "context_left": "".lower(),
     "mention": "".lower(),
-    "context_right":"played in the Premier League".lower(),
+    "context_right":" played in the Premier League".lower(),
     }
     
 data_to_link = []
@@ -48,14 +48,13 @@ for name in names:
     tmp["mention"] = name.lower()
     data_to_link.append(tmp)
 
-_, _, _, _, _, predictions, scores, = main_dense.run(args, None, *models, test_data=data_to_link)
+_, _, _, _, _, urls, scores, = main_dense.run(args, None, *models, test_data=data_to_link)
 
-print(predictions,scores)
+print(urls,scores)
 
-data = {"data":[]}
-for name,i in zip(names,predictions):
-    url = i[0]
-    data["data"].append([name,url])
+data = {}
+for name,url in zip(names,urls):
+    data["name"] = url
 
 with open('out.json',"w") as f:
     json.dump(data,f)

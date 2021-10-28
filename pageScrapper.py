@@ -1,11 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from tqdm import tqdm
 
 def premierLeaguePlayerPageScrapper(id,name):
     data = {}
     overviewURL = "https://www.premierleague.com/players/" + str(id) + "/" + name.replace(" ","-") + "/overview"
-    print(overviewURL)
+    # print(overviewURL)
     statsURL = "https://www.premierleague.com/players/" + str(id) + "/" + name.replace(" ","-") + "/stats"
     overviewPage = requests.get(overviewURL)
     overviewSoup = BeautifulSoup(overviewPage.content, "html.parser")
@@ -50,10 +51,23 @@ with open('./PL-wiki/names.txt', 'r', encoding="utf-8") as f:
 playerID = [name.split(': ')[0] for name in names_data]
 names = [name.split(': ')[1] for name in names_data]
 
-playerData = {}
-for i in range(len(playerID)):
-    print(names[i])
-    playerData[names[i]] = premierLeaguePlayerPageScrapper(playerID[i],names[i])
+data = []
+with open('playerData_tmp.json', 'r') as f:
+    for obj in f:
+        data.append(json.loads(obj))
+    
+cache = []
+for d in data:
+    cache.append(list(d.keys())[0])
 
-with open('playerData.json','w') as f:
-    json.dump(playerData,f,indent=4)
+with open('playerData_tmp.json','w') as f:
+    for i in tqdm(range(len(playerID))):
+        # print(names[i])
+        if names[i] in cache:
+            continue
+
+        playerData = {}
+        playerData[names[i]] = premierLeaguePlayerPageScrapper(playerID[i],names[i])
+
+        f.write(json.dumps(playerData))
+        f.write("\n")
