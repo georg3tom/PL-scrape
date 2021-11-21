@@ -13,6 +13,7 @@ def get_content(id):
     stemmer = Stemmer.Stemmer('english')
     data = requests.get(url).json()
     content = data['query']['pages'][id]['extract']
+    content = content.lower()
     waste = [
         re.compile(r"http.?://(?:[^\s])*"),  # urls
         re.compile(r"(\|[^\|\n\]]*=)"),  # | * =
