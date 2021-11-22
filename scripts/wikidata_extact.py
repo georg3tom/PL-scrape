@@ -1,3 +1,5 @@
+# extract just the relevant attributes for all players from the wikidata entries
+
 import json
 
 with open("./attr.json", "r") as f:

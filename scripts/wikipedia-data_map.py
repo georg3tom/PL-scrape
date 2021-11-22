@@ -1,3 +1,5 @@
+# maps wikipedia page to the wikidata q id
+
 import json
 import requests
 from tqdm import tqdm

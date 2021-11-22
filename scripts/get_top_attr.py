@@ -1,3 +1,6 @@
+# output to attributes based on the score. 
+# if score is > 0 then add it to the list
+
 import json
 
 

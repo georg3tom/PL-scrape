@@ -1,3 +1,5 @@
+# Links each player name to their wikipedia page
+
 import blink.main_dense as main_dense
 import argparse
 import json
@@ -31,6 +33,9 @@ with open("../outputs/player_names_ids.txt", "r") as f:
 
 names = [name.split(": ")[1] for name in names_data]
 print(names)
+
+# template sentence
+# mention will be the player name
 
 template = {
     "id": 0,

@@ -1,3 +1,5 @@
+# Uses SPARQL to scrape the wikidata pages of all players
+
 import requests
 from bs4 import BeautifulSoup
 import json

@@ -1,7 +1,11 @@
+# rank attributes based on the tf value in the wikipedia page
+
+
 import json
 import math
 import re
 import Stemmer
+
 
 def tf_idf(documents, word, doc_key):
     tff = tf(documents, word, doc_key)

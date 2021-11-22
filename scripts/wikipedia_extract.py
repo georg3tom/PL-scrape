@@ -1,3 +1,6 @@
+# extracts wikipedia page and the content is tokenised, stemmed and the count of each 
+# token is returned
+
 import requests
 import json
 import re
