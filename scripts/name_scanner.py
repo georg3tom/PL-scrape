@@ -27,6 +27,7 @@ def main():
             print(f"{i}: {name}", file=f)
 
     f.close()
+    print("Generated player_names_ids.txt")
 
 
 if __name__ == "__main__":

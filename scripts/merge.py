@@ -41,6 +41,8 @@ def main():
     with open('../outputs/final.json', 'w', encoding='utf-8') as f:
         json.dump(mergedData, f, ensure_ascii=False, indent=2)
 
+    print("Generated final.json")
+
 
 if __name__ == "__main__":
     main()
