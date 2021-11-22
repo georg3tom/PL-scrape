@@ -1,7 +1,7 @@
 import json
 
 
-with open("./outputs/rank.json", "r") as f:
+with open("../outputs/rank.json", "r") as f:
     data = json.load(f)
 
 
@@ -20,7 +20,5 @@ for d in data:
         final["attr"].append(d[1])
 
 
-
-with open("./outputs/attr.json", "w") as f:
-
+with open("../outputs/attr.json", "w") as f:
     json.dump(final, f, ensure_ascii=False, indent=4)

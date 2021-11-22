@@ -9,13 +9,12 @@ import requests
 import regex
 from tqdm import tqdm
 
-ID_MIN = 0
 ID_MAX = 100000
 
 
 def main():
     f = open('../outputs/player_names_ids.txt', 'w+')
-    for i in tqdm(range(ID_MIN, ID_MAX)):
+    for i in tqdm(range(ID_MAX)):
         response = requests.get(f'https://www.premierleague.com/players/{i}')
         if response.status_code != 200:
             continue

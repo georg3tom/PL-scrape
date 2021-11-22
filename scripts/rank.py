@@ -3,18 +3,21 @@ import math
 import re
 import Stemmer
 
+
 def tf_idf(documents, word, doc_key):
     tff = tf(documents, word, doc_key)
     N = len(documents)
     count = sum([1 if word in documents[key] else 0 for key in documents])
-    idf = math.log(N/count)
-    return tff/idf
+    idf = math.log(N / count)
+    return tff / idf
+
 
 def tf(documents, word, doc_key):
     try:
-        return documents[doc_key][word]/sum([documents[doc_key][key] for key in documents[doc_key]])
+        return documents[doc_key][word] / sum([documents[doc_key][key] for key in documents[doc_key]])
     except:
         return 0
+
 
 def clean_tok(content):
     waste = [
@@ -44,33 +47,32 @@ def clean_tok(content):
 def main():
     with open('../outputs/data_200.json', 'r') as f:
         documents = json.load(f)
-    with open('../outputs//wikidata_200.json', 'r') as f:
+    with open('../outputs/wikidata.json', 'r') as f:
         wikidata = json.load(f)
 
     attributes = {}
     for player in wikidata:
         for attr in wikidata[player]:
-            attributes[attr] = {'score':0, 'in_players': 0, 'in_wikipedia': 0}
+            attributes[attr] = {'score': 0, 'in_players': 0, 'in_wikipedia': 0}
 
     for player in wikidata:
         for attr in wikidata[player]:
             clean = clean_tok(" ".join(list(set(wikidata[player][attr]))))
-            print(wikidata[player][attr])
-            print(clean,'\n')
+            # print(wikidata[player][attr])
+            # print(clean, '\n')
             for tok in clean:
-                if tf(documents, tok,player) > 0:
+                if tf(documents, tok, player) > 0:
                     attributes[attr]['in_wikipedia'] += 1
                     break
-            
+
             attributes[attr]['in_players'] += 1
 
     for attr in attributes:
-        attributes[attr]['score'] =  attributes[attr]['in_wikipedia']/attributes[attr]['in_players']
+        attributes[attr]['score'] = attributes[attr]['in_wikipedia'] / \
+            attributes[attr]['in_players']
 
-
-    with open('../outputs/rank.json','w') as f:
+    with open('../outputs/rank.json', 'w') as f:
         json.dump(attributes, f)
-
 
 
 if __name__ == "__main__":

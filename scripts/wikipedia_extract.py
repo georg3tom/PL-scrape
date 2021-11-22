@@ -52,7 +52,7 @@ def main():
         ret = get_content(id)
         data_200[name] = ret
 
-    with open("./outputs/data_200.json", "w") as f:
+    with open("../outputs/data_200.json", "w") as f:
         json.dump(data_200, f, ensure_ascii=False, indent=4)
 
 

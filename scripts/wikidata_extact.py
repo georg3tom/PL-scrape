@@ -1,9 +1,9 @@
 import json
 
-with open("./attr.json", "r") as f:
+with open("../outputs/attr.json", "r") as f:
     attrs = json.load(f)["attr"]
 
-with open("../PL-Stat-Scrape/wikidata.json", "r") as f:
+with open("../outputs/wikidata.json", "r") as f:
     wikidata = json.load(f)
 
 final = {}
