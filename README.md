@@ -14,9 +14,9 @@ The `outputs` folder contains output files from most of the scripts. Due the the
 
 ### `scripts/`
 
-1. `name_scanner.py`: Scans all URLs from `ID_MIN` to `ID_MAX` (set to 0 and 100,000 by default) and checks if there is a valid player page there. If there is a page, it saves `<ID>: <Name>` of that player to `outputs/player_names_ids.txt`. This file contains $6587$ such pairs.
+1. `name_scanner.py`: Scans all URLs from `ID_MIN` to `ID_MAX` (set to 0 and 100,000 by default) and checks if there is a valid player page there. If there is a page, it saves `<ID>: <Name>` of that player to `outputs/player_names_ids.txt`. This file contains 6587 such pairs.
 
-2. `pl_scrape.py`: Takes the ID-Name pairs from `outputs/player_names_ids.txt` and scrapes their respective Overview and Stats page for various attributes. Once it has scraped all the pages and organized their contents, it creates a Pandas Dataframe from the data and writes it to `outputs/uncleaned_pl_scrape.csv`. We've chosen CSV as the intermediate format here since this scrape has a log of numerical data, and it is easier to understand this data in a tabular format, which is easy to generate from a CSV.
+2. `pl_scrape.py`: Takes the ID-Name pairs from `outputs/player_names_ids.txt` and scrapes their respective Overview and Stats page for various attributes. Once it has scraped all the pages and organized their contents, it creates a Pandas Dataframe from the data and writes it to `outputs/uncleaned_pl_scrape.csv`. We've chosen CSV as the intermediate format here since this scrape has a lot of numerical data, and it is easier to understand this data in a tabular format, which is easy to generate from a CSV.
 
 3. `clean_and_stats.py`: Takes `outputs/uncleaned_pl_scrape.csv` and `outputs/uncleaned_wiki_scrape.json`, performs quantitative analysis of the data obtained and then cleans them. The plots generated can be saved if required. This script outputs one new JSON file for each of the inputted data files: `outputs/cleaned_pl_scrape.json` and `outputs/cleaned_wiki_scrape.json`.
 
