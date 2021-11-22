@@ -66,6 +66,11 @@ Contains plots generated for the analysis of the data:
 
 ## Running the Pipeline
 
+### Installing Dependencies
+- You can run `pip install -r requirements.txt` to install all the pip dependencies.
+- After that, you would need to install the *BLINK* library from [here](https://github.com/facebookresearch/BLINK). This is required to fetch the data from Wikipedia.
+
+### Running The Scripts
 Since all of our scripts work in a sequential manner, with the output of one feeding into the input another, we have come up with an easy bash script that executes the required Python scripts in order. To run the entire pipeline, just do:
 
 ```bash
