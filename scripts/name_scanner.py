@@ -1,5 +1,5 @@
 """
-    This script scans a range from ID_MIN to ID_MAX. For each ID, it sees if there
+    This script scans a range from 0 to ID_MAX. For each ID, it sees if there
     is a player with that ID. If there is, store their name and ID to a text 
     file, so during fetching, we only hit those URLs that have valid player 
     information on them.
