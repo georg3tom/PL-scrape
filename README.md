@@ -4,7 +4,9 @@ This project aims to scrape data about past and present Premier League players f
 
 ## File Structure Organization
 
-The files in this project have been well organized. All Python scripts are in the `scripts` folder. Within the `scripts` folder, is another subfolder called `notebooks` that were used for experimenting and data visualization, but aren't needed for running this project. Still, they have been included for completeness.
+The files in this project have been well organized. All Python scripts are in the `scripts` folder. Within the `scripts` folder, there are 2 subfolders:
+- `notebooks`, that contains jupyter notebooks which were used for experimenting and data visualization, but aren't needed for running this project. Still, they have been included for completeness.
+- `data`, that contains additional data used for scripts, such as a set of stopwords to clean the parsed wikipedia articles.
 
 The `plots` folder contains the plots outputted from the visulziation notebooks.
 
