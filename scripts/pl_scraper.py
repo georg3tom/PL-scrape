@@ -1,3 +1,10 @@
+"""
+Taking the text file with ID-Name pairs, outputted from name_scanner.py,
+Webscrape each of the pages and collect the available attributes for each
+player. Make a Dataframe from it and write it to a CSV, making it easier for
+visualizing the data and cleaning it.
+"""
+
 import requests
 from bs4 import BeautifulSoup as bs4
 import json
@@ -5,6 +12,13 @@ from tqdm import tqdm
 import pandas as pd
 import random
 
+
+"""
+This class encapsulates a Player entity and contains all the logic of scraping the required data
+from the respective URLs. It stores all the attribute name-value pairs in self.data.
+The class also has a static memeber set called attributes that keeps track of all the unique
+attributes that have been encountered while fetching all the players from the website.
+"""
 
 class Player:
 
@@ -82,6 +96,9 @@ class Player:
     def __str__(self):
         return f"{self.id}. {self.name} : {self.data}"
 
+    def __doc__(self):
+        print("I am a player class")
+
 
 def main():
 
@@ -95,6 +112,11 @@ def main():
 
     for player in tqdm(player_list):
         player.scrapeStats()
+    
+    """
+    Using a Dataframe and exporting to a CSV so it's easier to visualize 
+    and later load into the cleaning script.
+    """
 
     df = pd.DataFrame([p.data for p in player_list])
     df.to_csv('../outputs/uncleaned_pl_scrape.csv', index=False)
