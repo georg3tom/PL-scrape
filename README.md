@@ -12,7 +12,7 @@ The `outputs` folder contains output files from most of the scripts. Due the the
 
 ### `scripts/`
 
-1. `name_scanner.py`: Scans all URLs from 0 to `ID_MAX` (set to 100,000 from experimentation) and checks if there is a valid player page there. If there is a page, it saves `<ID>: <Name>` of that player to `outputs/player_names_ids.txt`. This file contains $6587$ such pairs.
+1. `name_scanner.py`: Scans all URLs from `ID_MIN` to `ID_MAX` (set to 0 and 100,000 by default) and checks if there is a valid player page there. If there is a page, it saves `<ID>: <Name>` of that player to `outputs/player_names_ids.txt`. This file contains $6587$ such pairs.
 
 2. `pl_scrape.py`: Takes the ID-Name pairs from `outputs/player_names_ids.txt` and scrapes their respective Overview and Stats page for various attributes. Once it has scraped all the pages and organized their contents, it creates a Pandas Dataframe from the data and writes it to `outputs/uncleaned_pl_scrape.csv`. We've chosen CSV as the intermediate format here since this scrape has a log of numerical data, and it is easier to understand this data in a tabular format, which is easy to generate from a CSV.
 
@@ -76,3 +76,18 @@ This will run all the scripts and copy `final.json` to the root directory of the
 *Note: The entire pipleline may take a few hours to run, as the scripts need to make a lot of web request to fetch all the required data.*
 
 *Note: `run.sh` won't generate the plot files, as those files have been manually saved from the notebooks. It will however show the plots in a window, so you can choose to manually save them if you like.*
+
+You can run individual scripts as well if you want, however, it is important that you run them from the `scripts/` directory as the paths for the data files have been written relative to their location from the `scripts/` directory. For example:
+
+**❌ Incorrect**:
+```bash
+python3 scripts/pl_scraper.py
+```
+
+**✔️ Correct**:
+```bash
+cd scripts
+python3 pl_scraper.py
+```
+
+`run.sh` already takes this into account, so that can be run directly from the root directory of the project. 

@@ -196,6 +196,7 @@ and writes two new JSON files that have cleaned data.
 def main():
 
     # PL Scrape Cleaning
+    print("Cleaning uncleaned_pl_scrape.csv")
     df = pd.read_csv('../outputs/uncleaned_pl_scrape.csv', thousands=',')
     plot_pl_nan_stats(df)
     attributes_to_plot, df = clean_pl_data(df)
@@ -212,8 +213,10 @@ def main():
 
     with open('../outputs/cleaned_pl_scrape.json', 'w') as f:
         json.dump(out_list, f, indent=2)
+    print("Generated cleaned_pl_scrape.json")
 
     # Wikidata cleaning
+    print("Cleaning uncleaned_wiki_scrape.json")
     with open('../outputs/uncleaned_wiki_scrape.json', 'r', encoding='utf-8') as f:
         wiki_data = json.load(f)
 
@@ -223,6 +226,7 @@ def main():
 
     with open('../outputs/cleaned_wiki_scrape.json', 'w') as f:
         json.dump(clean_data, f, indent=2)
+    print("Generated cleaned_pl_scrape.json")
 
 
 if __name__ == "__main__":

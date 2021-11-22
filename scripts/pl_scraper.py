@@ -121,6 +121,8 @@ def main():
     df = pd.DataFrame([p.data for p in player_list])
     df.to_csv('../outputs/uncleaned_pl_scrape.csv', index=False)
 
+    print("Generated uncleaned_pl_scrape.csv")
+
 
 if __name__ == "__main__":
     main()
