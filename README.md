@@ -18,9 +18,11 @@ The `outputs` folder contains output files from most of the scripts. Due the the
 
 3. `clean_and_stats.py`: Takes `outputs/uncleaned_pl_scrape.csv` and `outputs/uncleaned_wiki_scrape.json`, performs quantitative analysis of the data obtained and then cleans them. The plots generated can be saved if required. This script outputs one new JSON file for each of the inputted data files: `outputs/cleaned_pl_scrape.json` and `outputs/cleaned_wiki_scrape.json`.
 
-4. `merge.py`: Takes the two cleaned JSONs: `outputs/cleaned_pl_scrape.json` and `outputs/cleaned_wiki_scrape.json`, and merges the attributes in them player-wise to generate a dictionary with all the cumulative data from both the scrapes. It then writes this to a file, generating our desired output: `outputs/final.json`.
+4. `wikidata_extact.sh`: Attributes are chosen based on a sample of 200 players and their wikipedia entry is used to determine how relevant each attribute is. Following that, the selected attributes are obtained for all players.
 
-5. `notebooks/`: As mentioned earlier, this directory contains notebooks that were used for experimenting, intermediate steps, and data visualization. The two `clean_*.ipynb` files have been merged into the `clean_and_stats.py` script, but the `analysis.ipynb` file is a standalone, that was used for data analysis and visualization to be used in the Report.
+5. `merge.py`: Takes the two cleaned JSONs: `outputs/cleaned_pl_scrape.json` and `outputs/cleaned_wiki_scrape.json`, and merges the attributes in them player-wise to generate a dictionary with all the cumulative data from both the scrapes. It then writes this to a file, generating our desired output: `outputs/final.json`.
+
+6. `notebooks/`: As mentioned earlier, this directory contains notebooks that were used for experimenting, intermediate steps, and data visualization. The two `clean_*.ipynb` files have been merged into the `clean_and_stats.py` script, but the `analysis.ipynb` file is a standalone, that was used for data analysis and visualization to be used in the Report.
 
 ### `outputs/`
 
@@ -34,9 +36,19 @@ The explanation of these files have already been provided in the above section, 
 
 4. `cleaned_pl_scrape.json`: Stores the cleaned data scraped from the Premier League website.
 
-5. `cleaned_wiki_scrape.json`: Stores the cleaned data scraped from Wikipedia and WikiData
+5. `data_200.json`: Stores tokenised wikipedia articles for 200 sample players.
 
-6. `final.json`: Stores the cumulative information about all the players from both the scrapes. This is the final output file.
+6. `wikidata.json`: Stores Wikidata attributes for all players.
+
+7. `wikipedia_links.json`: Stores Wikipedia article links for all players.
+
+8. `wikidata_map.json`: Stores mappings of Wikipedia articles to WikiData id for all players.
+
+9. `attr.json`: Stores the list of relevant wikidata attributes.
+
+10. `cleaned_wiki_scrape.json`: Stores the cleaned data scraped from Wikipedia and WikiData
+
+11. `final.json`: Stores the cumulative information about all the players from both the scrapes. This is the final output file.
 
 ### `plots/`
 
