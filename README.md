@@ -55,6 +55,7 @@ Contains plots generated for the analysis of the data:
 Since all of our scripts work in a sequential manner, with the output of one feeding into the input another, we have come up with an easy bash script that executes the required Python scripts in order. To run the entire pipeline, just do:
 
 ```bash
+chmod +x ./run.sh
 ./run.sh
 ```
 
