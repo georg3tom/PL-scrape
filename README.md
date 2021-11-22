@@ -64,3 +64,18 @@ This will run all the scripts and copy `final.json` to the root directory of the
 *Note: The entire pipleline may take a few hours to run, as the scripts need to make a lot of web request to fetch all the required data.*
 
 *Note: `run.sh` won't generate the plot files, as those files have been manually saved from the notebooks. It will however show the plots in a window, so you can choose to manually save them if you like.*
+
+You can run individual scripts as well if you want, however, it is important that you run them from the `scripts/` directory as the paths for the data files have been written relative to their location from the `scripts/` directory. For example:
+
+**❌ Incorrect**:
+```bash
+python3 scripts/pl_scraper.py
+```
+
+**✔️ Correct**:
+```bash
+cd scripts
+python3 pl_scraper.py
+```
+
+`run.sh` already takes this into account, so that can be run directly from the root directory of the project. 
