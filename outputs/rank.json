@@ -1,0 +1,947 @@
+{
+  "occupation": {
+    "score": 0.050761421319796954,
+    "in_players": 197,
+    "in_wikipedia": 10
+  },
+  "league": {
+    "score": 0.04597701149425287,
+    "in_players": 87,
+    "in_wikipedia": 4
+  },
+  "image": {
+    "score": 0,
+    "in_players": 111,
+    "in_wikipedia": 0
+  },
+  "place of birth": {
+    "score": 0.030612244897959183,
+    "in_players": 196,
+    "in_wikipedia": 6
+  },
+  "sex or gender": {
+    "score": 0,
+    "in_players": 197,
+    "in_wikipedia": 0
+  },
+  "VIAF ID": {
+    "score": 0,
+    "in_players": 15,
+    "in_wikipedia": 0
+  },
+  "country of citizenship": {
+    "score": 0.04591836734693878,
+    "in_players": 196,
+    "in_wikipedia": 9
+  },
+  "instance of": {
+    "score": 0.005025125628140704,
+    "in_players": 199,
+    "in_wikipedia": 1
+  },
+  "member of sports team": {
+    "score": 0.05641025641025641,
+    "in_players": 195,
+    "in_wikipedia": 11
+  },
+  "Munzinger Sport number": {
+    "score": 0,
+    "in_players": 11,
+    "in_wikipedia": 0
+  },
+  "participant in": {
+    "score": 0.046153846153846156,
+    "in_players": 65,
+    "in_wikipedia": 3
+  },
+  "number of matches played/races/starts": {
+    "score": 0,
+    "in_players": 12,
+    "in_wikipedia": 0
+  },
+  "WorldFootball.net player ID": {
+    "score": 0.05434782608695652,
+    "in_players": 92,
+    "in_wikipedia": 5
+  },
+  "work period (start)": {
+    "score": 0.039603960396039604,
+    "in_players": 101,
+    "in_wikipedia": 4
+  },
+  "height": {
+    "score": 0,
+    "in_players": 124,
+    "in_wikipedia": 0
+  },
+  "FAST ID": {
+    "score": 0,
+    "in_players": 5,
+    "in_wikipedia": 0
+  },
+  "Soccerbase player ID": {
+    "score": 0,
+    "in_players": 152,
+    "in_wikipedia": 0
+  },
+  "UEFA player ID": {
+    "score": 0,
+    "in_players": 57,
+    "in_wikipedia": 0
+  },
+  "Soccerway player ID": {
+    "score": 0.04950495049504951,
+    "in_players": 101,
+    "in_wikipedia": 5
+  },
+  "Transfermarkt player ID": {
+    "score": 0,
+    "in_players": 172,
+    "in_wikipedia": 0
+  },
+  "Transfermarkt manager ID": {
+    "score": 0,
+    "in_players": 15,
+    "in_wikipedia": 0
+  },
+  "National-Football-Teams.com player ID": {
+    "score": 0,
+    "in_players": 94,
+    "in_wikipedia": 0
+  },
+  "Scoresway soccer person ID": {
+    "score": 0,
+    "in_players": 92,
+    "in_wikipedia": 0
+  },
+  "Fussballdaten.de player ID": {
+    "score": 0,
+    "in_players": 14,
+    "in_wikipedia": 0
+  },
+  "EU-Football.info player ID": {
+    "score": 0,
+    "in_players": 58,
+    "in_wikipedia": 0
+  },
+  "Commons category": {
+    "score": 0.053763440860215055,
+    "in_players": 93,
+    "in_wikipedia": 5
+  },
+  "position played on team / speciality": {
+    "score": 0.04145077720207254,
+    "in_players": 193,
+    "in_wikipedia": 8
+  },
+  "Trading Card Database person ID": {
+    "score": 0,
+    "in_players": 84,
+    "in_wikipedia": 0
+  },
+  "date of birth": {
+    "score": 0.05583756345177665,
+    "in_players": 197,
+    "in_wikipedia": 11
+  },
+  "FBref player ID": {
+    "score": 0,
+    "in_players": 150,
+    "in_wikipedia": 0
+  },
+  "coach of sports team": {
+    "score": 0,
+    "in_players": 18,
+    "in_wikipedia": 0
+  },
+  "Danish Football Union player ID": {
+    "score": 0,
+    "in_players": 3,
+    "in_wikipedia": 0
+  },
+  "sport": {
+    "score": 0.05583756345177665,
+    "in_players": 197,
+    "in_wikipedia": 11
+  },
+  "Freebase ID": {
+    "score": 0,
+    "in_players": 182,
+    "in_wikipedia": 0
+  },
+  "total goals in career": {
+    "score": 0,
+    "in_players": 12,
+    "in_wikipedia": 0
+  },
+  "family name": {
+    "score": 0.05732484076433121,
+    "in_players": 157,
+    "in_wikipedia": 9
+  },
+  "given name": {
+    "score": 0.053763440860215055,
+    "in_players": 186,
+    "in_wikipedia": 10
+  },
+  "EU-Football.info manager ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Kooora/Goalzz player ID": {
+    "score": 0,
+    "in_players": 30,
+    "in_wikipedia": 0
+  },
+  "place of death": {
+    "score": 0.3333333333333333,
+    "in_players": 3,
+    "in_wikipedia": 1
+  },
+  "medical condition": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "manner of death": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "languages spoken, written or signed": {
+    "score": 0.05128205128205128,
+    "in_players": 156,
+    "in_wikipedia": 8
+  },
+  "mass": {
+    "score": 0,
+    "in_players": 86,
+    "in_wikipedia": 0
+  },
+  "Turkish Football Federation player ID": {
+    "score": 0,
+    "in_players": 11,
+    "in_wikipedia": 0
+  },
+  "K League player ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "FootballDatabase.eu player ID": {
+    "score": 0,
+    "in_players": 89,
+    "in_wikipedia": 0
+  },
+  "cause of death": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "date of death": {
+    "score": 0.25,
+    "in_players": 4,
+    "in_wikipedia": 1
+  },
+  "educated at": {
+    "score": 0.14285714285714285,
+    "in_players": 14,
+    "in_wikipedia": 2
+  },
+  "country for sport": {
+    "score": 0.011904761904761904,
+    "in_players": 84,
+    "in_wikipedia": 1
+  },
+  "different from": {
+    "score": 0.125,
+    "in_players": 8,
+    "in_wikipedia": 1
+  },
+  "FIFA player ID": {
+    "score": 0,
+    "in_players": 64,
+    "in_wikipedia": 0
+  },
+  "work period (end)": {
+    "score": 0.07142857142857142,
+    "in_players": 14,
+    "in_wikipedia": 1
+  },
+  "Library of Congress authority ID": {
+    "score": 0,
+    "in_players": 10,
+    "in_wikipedia": 0
+  },
+  "WorldCat Identities ID": {
+    "score": 0,
+    "in_players": 14,
+    "in_wikipedia": 0
+  },
+  "sibling": {
+    "score": 0,
+    "in_players": 9,
+    "in_wikipedia": 0
+  },
+  "BNB person ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "birth name": {
+    "score": 0.022222222222222223,
+    "in_players": 45,
+    "in_wikipedia": 1
+  },
+  "name in native language": {
+    "score": 0.03076923076923077,
+    "in_players": 65,
+    "in_wikipedia": 2
+  },
+  "Soccerbase manager ID": {
+    "score": 0,
+    "in_players": 3,
+    "in_wikipedia": 0
+  },
+  "employer": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "award received": {
+    "score": 0,
+    "in_players": 5,
+    "in_wikipedia": 0
+  },
+  "ISNI": {
+    "score": 0,
+    "in_players": 5,
+    "in_wikipedia": 0
+  },
+  "child": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "GTAA ID": {
+    "score": 0,
+    "in_players": 15,
+    "in_wikipedia": 0
+  },
+  "Discogs artist ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "Quora topic ID": {
+    "score": 0,
+    "in_players": 6,
+    "in_wikipedia": 0
+  },
+  "Store norske leksikon ID": {
+    "score": 0,
+    "in_players": 3,
+    "in_wikipedia": 0
+  },
+  "BDFA player ID": {
+    "score": 0,
+    "in_players": 49,
+    "in_wikipedia": 0
+  },
+  "England Football Online player profile": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "CUP2002.RU person ID": {
+    "score": 0,
+    "in_players": 8,
+    "in_wikipedia": 0
+  },
+  "sport number": {
+    "score": 0.04411764705882353,
+    "in_players": 68,
+    "in_wikipedia": 3
+  },
+  "AS.com athlete ID": {
+    "score": 0.05357142857142857,
+    "in_players": 56,
+    "in_wikipedia": 3
+  },
+  "L'Équipe football player ID": {
+    "score": 0,
+    "in_players": 25,
+    "in_wikipedia": 0
+  },
+  "spouse": {
+    "score": 0,
+    "in_players": 3,
+    "in_wikipedia": 0
+  },
+  "AlloCiné person ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Twitter username": {
+    "score": 0,
+    "in_players": 26,
+    "in_wikipedia": 0
+  },
+  "Bibliothèque nationale de France ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "IdRef ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Encyclopædia Universalis ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Babelio author ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Giant Bomb ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "Evene ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Roglo person ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "FFF player ID (new scheme)": {
+    "score": 0,
+    "in_players": 6,
+    "in_wikipedia": 0
+  },
+  "PlaymakerStats.com player ID": {
+    "score": 0,
+    "in_players": 14,
+    "in_wikipedia": 0
+  },
+  "IMDb ID": {
+    "score": 0,
+    "in_players": 3,
+    "in_wikipedia": 0
+  },
+  "PlaymakerStats.com coach ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Podchaser creator ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "father": {
+    "score": 0,
+    "in_players": 5,
+    "in_wikipedia": 0
+  },
+  "MLS player ID": {
+    "score": 0,
+    "in_players": 7,
+    "in_wikipedia": 0
+  },
+  "J.League player ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "BDFutbol player ID": {
+    "score": 0,
+    "in_players": 17,
+    "in_wikipedia": 0
+  },
+  "ESPNFC.com player ID": {
+    "score": 0,
+    "in_players": 14,
+    "in_wikipedia": 0
+  },
+  "pseudonym": {
+    "score": 0,
+    "in_players": 3,
+    "in_wikipedia": 0
+  },
+  "BabelNet ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "FFF male player ID (former scheme)": {
+    "score": 0,
+    "in_players": 5,
+    "in_wikipedia": 0
+  },
+  "Israel Football Association player ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Royal Belgian Football Association player ID": {
+    "score": 0,
+    "in_players": 4,
+    "in_wikipedia": 0
+  },
+  "pronunciation audio": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "convicted of": {
+    "score": 0,
+    "in_players": 3,
+    "in_wikipedia": 0
+  },
+  "Scottish Football Association player ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "religion": {
+    "score": 0,
+    "in_players": 7,
+    "in_wikipedia": 0
+  },
+  "native language": {
+    "score": 0,
+    "in_players": 4,
+    "in_wikipedia": 0
+  },
+  "Mackolik.com player ID": {
+    "score": 0,
+    "in_players": 7,
+    "in_wikipedia": 0
+  },
+  "sports.ru athlete ID": {
+    "score": 0,
+    "in_players": 13,
+    "in_wikipedia": 0
+  },
+  "social media followers": {
+    "score": 0,
+    "in_players": 23,
+    "in_wikipedia": 0
+  },
+  "ForaDeJogo player ID": {
+    "score": 0,
+    "in_players": 6,
+    "in_wikipedia": 0
+  },
+  "LFP player ID (former scheme)": {
+    "score": 0,
+    "in_players": 10,
+    "in_wikipedia": 0
+  },
+  "Sports-Reference.com Olympic athlete ID": {
+    "score": 0,
+    "in_players": 12,
+    "in_wikipedia": 0
+  },
+  "Olympedia people ID": {
+    "score": 0,
+    "in_players": 14,
+    "in_wikipedia": 0
+  },
+  "ethnic group": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "eye color": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "hair color": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "Kicker.de player ID (former scheme)": {
+    "score": 0,
+    "in_players": 8,
+    "in_wikipedia": 0
+  },
+  "Kicker.de player ID (actual scheme)": {
+    "score": 0,
+    "in_players": 10,
+    "in_wikipedia": 0
+  },
+  "GND ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "Nationale Thesaurus voor Auteurs ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "NNDB people ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "British Museum person or institution ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "National Portrait Gallery (London) person ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "owner of": {
+    "score": 0.5,
+    "in_players": 2,
+    "in_wikipedia": 1
+  },
+  "Instagram username": {
+    "score": 0,
+    "in_players": 10,
+    "in_wikipedia": 0
+  },
+  "SNAC ARK ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "National Diet Library ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "National Library of Korea ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Companies House officer ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "The Top Tens ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "official website": {
+    "score": 0,
+    "in_players": 9,
+    "in_wikipedia": 0
+  },
+  "Biblioteca Nacional de España ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "MusicBrainz artist ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Ligue 1 player ID": {
+    "score": 0,
+    "in_players": 3,
+    "in_wikipedia": 0
+  },
+  "TikTok username": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "French Vikidia ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "FaroeSoccer player ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "mother": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "relative": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "described by source": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "ČSFD person ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "FACR player ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Fotbal DNES player ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "NKCR AUT ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "SVKKL authority ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "FlashScore.com player ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "residence": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "German Football Association person ID": {
+    "score": 0,
+    "in_players": 3,
+    "in_wikipedia": 0
+  },
+  "FootballFacts.ru player ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "LevskiSofia.info player ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "NFF person ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "USL Championship player ID": {
+    "score": 0,
+    "in_players": 4,
+    "in_wikipedia": 0
+  },
+  "nickname": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Australian Olympic Committee athlete ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Swedish Football Association player ID": {
+    "score": 0,
+    "in_players": 3,
+    "in_wikipedia": 0
+  },
+  "Omni topic ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Swedish Football Association national team player ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Fogis.se player ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "Fandom article ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Sambafoot player ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Brazilian Olympic Committee athlete ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Lega Serie A soccer player ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "home venue": {
+    "score": 0.5,
+    "in_players": 2,
+    "in_wikipedia": 1
+  },
+  "headquarters location": {
+    "score": 0.5,
+    "in_players": 2,
+    "in_wikipedia": 1
+  },
+  "country": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "native label": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "head coach": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "inception": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "dissolved, abolished or demolished date": {
+    "score": 1,
+    "in_players": 1,
+    "in_wikipedia": 1
+  },
+  "FBref squad ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "topic's main category": {
+    "score": 0.5,
+    "in_players": 2,
+    "in_wikipedia": 1
+  },
+  "90minut player ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Google Knowledge Graph ID": {
+    "score": 0,
+    "in_players": 17,
+    "in_wikipedia": 0
+  },
+  "Facebook ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "second family name in Spanish name": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "CanadaSoccer.com person ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "OnsOranje player ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "Voetbalstats player ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Turkish Football Federation coach  ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Sportbox.ru ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Rugby League Project player ID": {
+    "score": 0,
+    "in_players": 2,
+    "in_wikipedia": 0
+  },
+  "instrument": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Oxford Dictionary of National Biography ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "CERL Thesaurus ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Europeana entity": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "ESPNscrum player ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "position held": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "Catholic Hierarchy person ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "consecrator": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  },
+  "WikiTree person ID": {
+    "score": 0,
+    "in_players": 1,
+    "in_wikipedia": 0
+  }
+}
