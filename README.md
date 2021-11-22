@@ -14,7 +14,7 @@ The `outputs` folder contains output files from most of the scripts. Due the the
 
 ### `scripts/`
 
-1. `name_scanner.py`: Scans all URLs from `ID_MIN` to `ID_MAX` (set to 0 and 100,000 by default) and checks if there is a valid player page there. If there is a page, it saves `<ID>: <Name>` of that player to `outputs/player_names_ids.txt`. This file contains 6587 such pairs.
+1. `name_scanner.py`: Scans all URLs from 0 to `ID_MAX` (set to 100,000 by default) and checks if there is a valid player page there. If there is a page, it saves `<ID>: <Name>` of that player to `outputs/player_names_ids.txt`. This file contains 6587 such pairs.
 
 2. `pl_scrape.py`: Takes the ID-Name pairs from `outputs/player_names_ids.txt` and scrapes their respective Overview and Stats page for various attributes. Once it has scraped all the pages and organized their contents, it creates a Pandas Dataframe from the data and writes it to `outputs/uncleaned_pl_scrape.csv`. We've chosen CSV as the intermediate format here since this scrape has a lot of numerical data, and it is easier to understand this data in a tabular format, which is easy to generate from a CSV.
 
@@ -66,6 +66,11 @@ Contains plots generated for the analysis of the data:
 
 ## Running the Pipeline
 
+### Installing Dependencies
+- You can run `pip install -r requirements.txt` to install all the pip dependencies.
+- After that, you would need to install the *BLINK* library from [here](https://github.com/facebookresearch/BLINK). This is required to fetch the data from Wikipedia.
+
+### Running The Scripts
 Since all of our scripts work in a sequential manner, with the output of one feeding into the input another, we have come up with an easy bash script that executes the required Python scripts in order. To run the entire pipeline, just do:
 
 ```bash

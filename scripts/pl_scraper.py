@@ -96,8 +96,6 @@ class Player:
     def __str__(self):
         return f"{self.id}. {self.name} : {self.data}"
 
-    def __doc__(self):
-        print("I am a player class")
 
 
 def main():

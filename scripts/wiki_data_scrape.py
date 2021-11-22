@@ -59,11 +59,11 @@ def get_wikiData(wd):
 
 def main():
     final = {}
-    with open("../wikipedia-aug/data_200.json", "r") as f:
+    with open("../outputs/data_200.json", "r") as f:
         sample = json.load(f)
     full = True
     sample_players = list(sample.keys())
-    with open("../wikipedia-aug/wikidata_map.json", "r") as f:
+    with open("../outputs/wikidata_map.json", "r") as f:
         data = json.load(f)
 
         for player in tqdm(data):
@@ -72,7 +72,7 @@ def main():
                     final[player] = get_wikiData(data[player])
                 except:
                     final[player] = {}
-    with open("wikidata.json", "w") as f:
+    with open("../outputs/wikidata.json", "w") as f:
         json.dump(final, f, ensure_ascii=False, indent=4)
 
 

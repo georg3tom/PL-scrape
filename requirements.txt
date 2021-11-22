@@ -15,4 +15,3 @@ tqdm==4.62.3
 urllib3==1.26.7
 wikimapper==0.1.5
 wikipedia==1.4.0
-git+git@github.com:facebookresearch/BLINK#egg=BLINK
